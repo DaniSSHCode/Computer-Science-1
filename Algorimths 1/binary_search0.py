@@ -1,5 +1,8 @@
 #python3
-
+'''
+This Code was used to improve my skills on algorimths design
+It helps us to find a random number chosen in a quick way
+'''
 def run():
   print('Think of a whole positive number')
   min = 1 
@@ -15,7 +18,7 @@ def run():
       find= input('{count}. your number is {number} , "1"=Yes / "0"=Not : '.format(count=str(count),number = str(number)))
       count+=1
       if find == '0':
-        find = input(r'Your number is: "<" o ">" ==> ')
+        find = input(r'Your number is: "<" o ">" : ')
         if find == '>':
           min=number+1
         elif find == '<':
